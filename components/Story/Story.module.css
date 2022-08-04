@@ -1,0 +1,16 @@
+.story {
+  border: 4px solid #404039;
+  color: #404039;
+  padding: 1rem;
+}
+
+.story :is(h1, p) {
+  margin: 0;
+}
+
+.story__meta {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
