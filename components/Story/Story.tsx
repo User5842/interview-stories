@@ -1,7 +1,6 @@
 import { FunctionComponent } from "react";
 
 import styles from "./Story.module.css";
-
 import { StoryProps } from "./Story.props";
 
 const Story: FunctionComponent<StoryProps> = ({

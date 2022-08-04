@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { useRef } from "react";
-import StoryCreate from "../StoryCreate/StoryCreate";
 
 import styles from "./Header.module.css";
+
+import StoryCreate from "../StoryCreate/StoryCreate";
 
 const Header = () => {
   /**
