@@ -3,6 +3,7 @@ import { useRef } from "react";
 
 import styles from "./Header.module.css";
 
+import { Button } from "../../ui";
 import StoryCreate from "../StoryCreate/StoryCreate";
 
 const Header = () => {
@@ -28,9 +29,7 @@ const Header = () => {
           <Link href="/">
             <a className={styles.header__control}>View Stories</a>
           </Link>
-          <button className={styles.header__control} onClick={onCreateStory}>
-            Create Story
-          </button>
+          <Button onClick={onCreateStory}>Create Story</Button>
         </nav>
       </header>
     </>
