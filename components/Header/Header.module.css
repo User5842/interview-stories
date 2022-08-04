@@ -1,3 +1,11 @@
+.dialog {
+  position: fixed;
+}
+
+.dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
 .header {
   align-items: center;
   border-bottom: 5px solid #404039;
