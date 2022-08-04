@@ -1,0 +1,35 @@
+.header {
+  align-items: center;
+  border-bottom: 5px solid #404039;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.header__heading {
+  color: #404039;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.header__controls {
+  display: flex;
+  gap: 1rem;
+}
+
+.header__control {
+  background-color: #fdf5ea;
+  border: 4px solid #404039;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 0.7rem;
+}
+
+.header__control:hover {
+  background-color: #404039;
+  color: #fdf5ea;
+}
