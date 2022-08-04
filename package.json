@@ -11,7 +11,8 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
-    "prebuild": "npm run lint",
+    "prebuild": "npm run prettier && npm run lint",
+    "prettier": "prettier --write .",
     "start": "next start"
   },
   "dependencies": {
@@ -27,6 +28,7 @@
     "@typescript-eslint/parser": "^5.32.0",
     "eslint": "^8.21.0",
     "eslint-config-next": "12.2.3",
+    "prettier": "2.7.1",
     "typescript": "^4.7.4"
   }
 }
