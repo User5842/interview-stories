@@ -1,0 +1,28 @@
+.chapter :is(input) {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 18px;
+}
+
+.dialog__heading {
+  font-weight: 900;
+  margin-top: 0;
+}
+
+.dialog__label {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+}
+
+.dialog__label + .dialog__label {
+  margin-top: 1rem;
+}
+
+.chapter__controls {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+}

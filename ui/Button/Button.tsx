@@ -4,10 +4,16 @@ import { ButtonProps } from "./Button.props";
 
 const Button: FunctionComponent<ButtonProps> = ({
   children,
+  disabled,
   onClick,
   type = "button",
 }) => (
-  <button className={styles.button} onClick={onClick} type={type}>
+  <button
+    className={styles.button}
+    disabled={disabled}
+    onClick={onClick}
+    type={type}
+  >
     {children}
   </button>
 );

@@ -20,6 +20,7 @@ const Stories = () => (
       position="Senior Front-End Engineer"
     />
     <Story company="Atlassian" offer={false} position="Front-End Engineer" />
+    <Story company="Atlassian" offer={false} position="Front-End Engineer" />
   </main>
 );
 

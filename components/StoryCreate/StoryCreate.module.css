@@ -1,10 +1,14 @@
-.dialog__heading {
-  font-weight: 900;
-}
-
-.dialog__form :is(input) {
+.dialog__form :is(select, textarea) {
   font-family: "Fira Sans", sans-serif;
   font-size: 18px;
+}
+
+h1.dialog__heading {
+  margin-top: 0;
+}
+
+.dialog__heading {
+  font-weight: 900;
 }
 
 .dialog__label,

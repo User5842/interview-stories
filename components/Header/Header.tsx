@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { useRef } from "react";
 
 import styles from "./Header.module.css";
@@ -26,9 +25,6 @@ const Header = () => {
       <header className={styles.header}>
         <h1 className={styles.header__heading}>Interview Stories</h1>
         <nav className={styles.header__controls}>
-          <Link href="/">
-            <a className={styles.header__control}>View Stories</a>
-          </Link>
           <Button onClick={onCreateStory}>Create Story</Button>
         </nav>
       </header>
